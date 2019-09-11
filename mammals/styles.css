@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "Comic Sans MS"; 
+    src: url("//db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.eot"); 
+    src: url("//db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.eot?#iefix") 
+    format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.woff2") 
+    format("woff2"), 
+    url("//db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.woff") 
+    format("woff"), 
+    url("//db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.ttf") 
+    format("truetype"), 
+    url("//db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.svg#Comic Sans MS") format("svg"); 
+}
+
+@import url(//db.onlinewebfonts.com/c/7cc6719bd5f0310be3150ba33418e72e?family=Comic+Sans+MS);
+
+body{
+    background-image: url("https://www.gannett-cdn.com/-mm-/d5e2b1d154f830ff7d8b16f13178ec1d3854aa4f/c=0-265-2589-1728/local/-/media/2017/08/30/USATODAY/USATODAY/636396561829785209-XXX-KERMIT--10-OF-10-47661325.JPG?width=580&height=326&fit=crop");
+}
+
+span {
+    font-family: 'Comic Sans MS';
+    color: yellow;
+    margin: -300px;
+}
+
+div.b {
+    -ms-transform: skewY(20deg); /* IE 9 */
+    -webkit-transform: skewY(20deg); /* Safari 3-8 */
+    transform: skewY(20deg);
+}
+.rainbow-text {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Comic Sans MS';
+
+  }
+
+  div {
+    width: 1000px;
+    height: 1000px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  
+  /* Standard syntax */
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+
+h2 {
+    color: turquoise;
+}
+
