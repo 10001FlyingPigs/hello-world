@@ -1,0 +1,10 @@
+div.a {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 7vh;
+}
+
+div.margin {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%
+}
