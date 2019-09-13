@@ -4,4 +4,157 @@ div.a {
 
 h1 {
     font-family: 'Josefin Sans', sans-serif;
+    margin-left: -20px;
+}
+
+margin {
+    margin-left: 5%;
+}
+
+div.b{
+    background-color: rgb(17, 0, 255);
+    width: 300px;
+    padding: 50px;
+    margin: 20px;
+}
+
+p {
+    -webkit-animation:colorchange 1s infinite alternate;
+}
+
+@-webkit-keyframes colorchange {
+  0% {
+    
+    color: blue;
+  }
+  
+  10% {
+    
+    color: purple;
+  }
+  
+  20% {
+    
+    color: yellow;
+  }
+  
+  30% {
+    
+    color: red;
+  }
+  
+  40% {
+    
+    color: blue;
+  }
+  
+  50% {
+    
+    color: yellow;
+  }
+  
+  60% {
+    
+    color: greenyellow;
+  }
+  
+  70% {
+    
+    color: white;
+  }
+  80% {
+ 
+    color: turquoise
+  }
+  
+  90% {
+ 
+    color: black;
+  }
+  
+  100% {
+    
+    color: yellow;
+  }
+}
+
+@keyframes argh-my-eyes {
+    0%   { background-color: yellow; }
+    49% { background-color: red; }
+    50% { background-color: lime; }
+    99% { background-color: turquoise; }
+    100% { background-color: turquoise; }
+}
+
+  body {
+  -webkit-animation: argh-my-eyes 0.2s infinite;
+  -moz-animation:    argh-my-eyes 0.2s infinite;
+  animation:         argh-my-eyes 0.5s infinite;
+}
+
+@font-face {
+    font-family: "Comic Sans MS"; 
+    src: url("//db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.eot"); 
+    src: url("//db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.eot?#iefix") 
+    format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.woff2") 
+    format("woff2"), 
+    url("//db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.woff") 
+    format("woff"), 
+    url("//db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.ttf") 
+    format("truetype"), 
+    url("//db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.svg#Comic Sans MS") format("svg"); 
+}
+
+@import url(//db.onlinewebfonts.com/c/7cc6719bd5f0310be3150ba33418e72e?family=Comic+Sans+MS);
+
+span {
+    font-family: 'Comic Sans MS';
+    color: yellow;
+    margin: -300px;
+    -ms-transform: skewY(20deg); /* IE 9 */
+    -webkit-transform: skewY(200deg); /* Safari 3-8 */
+    transform: skewY(20deg);
+}
+
+div.b {
+    -ms-transform: skewY(90deg); /* IE 9 */
+    -webkit-transform: skewY(-434deg); /* Safari 3-8 */
+    transform: skewY(32deg);
+    -ms-transform: skewY(20deg); /* IE 9 */
+    -webkit-transform: skewY(-200deg); /* Safari 3-8 */
+    transform: skewY(-20deg);
+}
+
+.rainbow-text {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Comic Sans MS';
+}
+
+div {
+    width: 100px;
+    height: 1000px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+  
+
+@-webkit-keyframes example {
+0%   {background-color:red; left:-100px; top:500px;}
+25%  {background-color:yellow; left:-320px; top:500px;}
+50%  {background-color:blue; left:-200px; top:50px;}
+}
+  
+@keyframes example {
+0%   {background-color:red; left:03px; top:22px;}
+25%  {background-color:yellow; left:-10px; top:0px;}
+100% {background-color:red; left:304px; top:230px;}
 }
