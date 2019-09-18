@@ -10,7 +10,8 @@ body {
   background-color: rgb(245, 245, 245);
   left:0;
   top:0;
-  position: static;
+  bottom: 0;
+  position: relative;
 }
 
 article {
@@ -20,7 +21,7 @@ article {
   grid-gap: 7.5px;
   position: static;
   transform: translate(-50%, 50%);
-  margin-bottom: 7.5px;
+  margin-bottom: 20vh;
   margin-left: 50%;
   justify-content: center;
 }
