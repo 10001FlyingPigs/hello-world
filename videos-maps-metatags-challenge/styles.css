@@ -1,0 +1,75 @@
+iframe {
+    margin-left: 50%;
+    transform: translate(-50%, 50%);
+    margin-top: 30vh;
+}
+
+body {
+    background-color: turquoise;
+}
+
+div.a {
+    margin-top: 30vh;
+    margin-bottom: 20%;   
+    -moz-transform: rotate(-329deg);
+    -webkit-transform: rotate(-329deg);
+    -o-transform: rotate(-329deg);
+    -ms-transform: rotate(-329deg);
+    transform: rotate(-329deg);
+    position: fixed;
+}
+
+div.b {
+    margin-top: -20vh;
+    -moz-transform: rotate(329deg);
+    -webkit-transform: rotate(329deg);
+    -o-transform: rotate(329deg);
+    -ms-transform: rotate(329deg);
+    transform: rotate(329deg);
+    margin-bottom: 10vh;
+    position: fixed;
+    margin-left: 30vh;
+}
+
+h1 {
+    font-family: 'Comic Sans MS';
+    text-align: center;
+    margin-top: 5vh;
+    color: rgb(255, 2, 2);
+}
+
+@font-face {
+    font-family: "Comic Sans MS"; 
+    src: url("//db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.eot"); 
+    src: url("//db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.eot?#iefix") 
+    format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.woff2") 
+    format("woff2"), 
+    url("//db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.woff") 
+    format("woff"), 
+    url("//db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.ttf") 
+    format("truetype"), 
+    url("//db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.svg#Comic Sans MS") format("svg"); 
+}
+
+@import url(//db.onlinewebfonts.com/c/7cc6719bd5f0310be3150ba33418e72e?family=Comic+Sans+MS);
+
+p {
+    font-family: 'Comic Sans MS';
+    font-size: 100px;
+    position: fixed;
+    margin-top: -20%;
+    margin-left: -20%;
+}
+
+.blinking{
+	animation:blinkingText 0.2s infinite;
+}
+
+@keyframes blinkingText{
+    0%{     color: yellow;    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: red;    }
+}
