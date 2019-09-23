@@ -1,40 +1,46 @@
-div.margin {
+/*div.margin {
   margin-left: 15px;
   position: absolute;
-}
+  z-index:12;
+ top: 0;
+}*/
+
+
 
 body {
-  background-image: url("https://images.pexels.com/photos/234272/pexels-photo-234272.jpeg?cs=srgb&dl=black-and-white-black-and-white-fog-234272.jpg&fm=jpg");
+  background-image: url("images/cactus.jpg");
   background-repeat: no-repeat;
-  background-size: 130%, auto;
+  background-size: 100%, auto;
   background-color: rgb(245, 245, 245);
   left:0;
   top:0;
-  bottom: 0;
-  position: relative;
+  position: static;
 }
 
 article {
   display: inline-grid;
-  grid-template-rows: 20vh 20vh 20vh  20vh;
-  grid-template-columns: 20vh 20vh 20vh;
-  grid-gap: 7.5px;
+  grid-template-rows: 15.5vh 15.5vh 15.5vh 15.5vh ;
+  grid-template-columns: 15.5vh 15.5vh 15.5vh 15.5vh;
+  grid-gap: 0vh;
   position: static;
-  transform: translate(-50%, 50%);
-  margin-bottom: 20vh;
-  margin-left: 50%;
+  transform: translate(-10vh);
+  margin-left: 67%;
+  margin-top: 0vh;
   justify-content: center;
+  /*-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));*/
 }
 
+
+
 section {
-  color: rgb(240, 240, 240);
+  color: rgb(12, 12, 12);
   display: flex;
   font-family: 'Playfair Display SC', serif;
   justify-content: center;
   align-items: center;
-  border: 0px solid rgb(46, 46, 46);
-  font-size: 5vh;
-  background-color : rgb(24, 24, 24);
+  border: 0px solid rgb(31,31,31);
+  font-size: 2.3vh;;
 }
 
 
@@ -46,6 +52,32 @@ section {
 
 .rectangle {
   height: 1vh;
-  width: 6vh;
-  background-color: rgb(238, 12, 12);
+  width: 31vh;
+  background-color: rgb(236, 11, 11);
+  position: static;
+  transform: translate(-10vh);
+  margin-left: 67%;
+  margin-top: 15.5vh;
+
+}
+
+/*.rectangle2 {
+  height: 100%;
+  width: 35vh;
+  background-color: rgb(255, 187, 142);
+  position: fixed;
+  transform: translate(-10vh);
+  margin-left: 17.5vh;
+  margin-top: -15.5vh;
+  z-index:10;
+  -webkit-box-shadow: -1px 0px 12px -9px #000000; 
+  box-shadow: -1px 0px 12px -9px #000000;
+  justify-content: center;
+  align-items: center;
+}
+*/
+.topnav {
+width: 200px;
+height: 150px;
+overflow-y: auto;
 }
