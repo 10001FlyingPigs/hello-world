@@ -11,10 +11,10 @@ body {
   background-image: url("images/cactus.jpg");
   background-repeat: no-repeat;
   background-size: 100%, auto;
-  background-color: rgb(245, 245, 245);
+  background-color: #ffca85;
+  position: fixed;
   left:0;
   top:0;
-  position: static;
 }
 
 article {
@@ -22,7 +22,6 @@ article {
   grid-template-rows: 15.5vh 15.5vh 15.5vh 15.5vh ;
   grid-template-columns: 15.5vh 15.5vh 15.5vh 15.5vh;
   grid-gap: 0vh;
-  position: static;
   transform: translate(-10vh);
   margin-left: 67%;
   margin-top: 0vh;
@@ -36,13 +35,18 @@ article {
 section {
   color: rgb(12, 12, 12);
   display: flex;
-  font-family: 'Playfair Display SC', serif;
+  font-family: 'moon 2.0';
   justify-content: center;
   align-items: center;
-  border: 0px solid rgb(31,31,31);
-  font-size: 2.3vh;;
+  border: 0px solid #1f1f1f;
+  font-size: 2.7vh;
 }
 
+li {
+  font-size: 2vh;
+  margin-bottom: 2.01vh;
+  font-family: 'Open Sans', sans-serif;
+}
 
 .article:after {
   content: "";
@@ -53,31 +57,71 @@ section {
 .rectangle {
   height: 1vh;
   width: 31vh;
-  background-color: rgb(236, 11, 11);
-  position: static;
+  background-color: #ff5252;
   transform: translate(-10vh);
   margin-left: 67%;
-  margin-top: 15.5vh;
-
+  margin-top: 0vh;
+  border-radius: 10px;
 }
 
-/*.rectangle2 {
+.rectangletwo {
   height: 100%;
   width: 35vh;
-  background-color: rgb(255, 187, 142);
+  background-color: #ff5252;
   position: fixed;
-  transform: translate(-10vh);
-  margin-left: 17.5vh;
-  margin-top: -15.5vh;
   z-index:10;
-  -webkit-box-shadow: -1px 0px 12px -9px #000000; 
-  box-shadow: -1px 0px 12px -9px #000000;
+  left:0;
+  top: 0;
+
+}
+
+.topnav {
+width: 35vh;
+height: 100%;
+position: fixed;
+}
+
+
+.margin {
+  margin-top: 13vh;
+  margin-left: 95vh;
+}
+
+
+a:link {
+  color: #fff9f9;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #fff9f9;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  text-decoration: none;
+  color: #d3afaf;
+}
+
+/* selected link */
+a:active {
+  color:#fff9f9;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'friction';
+  margin-top: 4.2vh;
+  color: #222222;
+  font-size: 4vh;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
-*/
-.topnav {
-width: 200px;
-height: 150px;
-overflow-y: auto;
+
+.margin2 {
+  margin-top: 7vh;
+  padding-right: 5vh;
 }

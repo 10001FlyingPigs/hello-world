@@ -1,0 +1,14 @@
+.margin {
+    margin-left: 3vh;
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+}
+
+p {
+    font-size: 28px;
+    font-family: georgia;
+    text-align: justify;
+}
