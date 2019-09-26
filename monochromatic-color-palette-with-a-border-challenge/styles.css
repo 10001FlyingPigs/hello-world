@@ -1,0 +1,10 @@
+#color-div-1 {
+    background: #ccddff
+}
+
+.border-div {
+    width: 345px;
+    padding: 4px;
+    border: dotted;
+    color: pink;
+}
