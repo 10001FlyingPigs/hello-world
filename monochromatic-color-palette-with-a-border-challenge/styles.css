@@ -1,10 +1,31 @@
-#color-div-1 {
-    background: #ccddff
-}
 
 .border-div {
     width: 345px;
     padding: 4px;
     border: dotted;
-    color: pink;
+    color: green;
+}
+
+.color-container {
+    width: 345px;
+    height: 50px
+}
+
+#color-div-1 {
+    background: #bfff80;
+}
+
+#color-div-2 {
+    background: #b3ff66;
+}
+
+#color-div-3 {
+    background: #99ff33;
+}
+#color-div-4 {
+    background: #80ff00;
+}
+
+#color-div-5 {
+    background: #66cc00;
 }
