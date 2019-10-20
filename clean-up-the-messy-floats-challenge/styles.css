@@ -1,0 +1,26 @@
+div {
+    margin: 10px;
+    padding: 10px;
+}
+
+#parent-div {
+    background: #FFB33D;
+}
+
+#first-div {
+    border: 5px solid #4593FE;
+    Float: none;
+    width: 200px;
+    height: 10px;
+}
+
+#second-div {
+    border: 5px solid #09CDA1;
+    float: left;
+    width: 20px;
+    height: 100px;
+}
+
+#third-div {
+    background: #ffffff;
+}

@@ -1,0 +1,24 @@
+h1 {
+    color:yellow;
+}
+
+.unicorn {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Comic Sans MS';
+}
+
+@keyframes argh-my-eyes {
+    0%   { background-color: yellow; }
+    49% { background-color: white; }
+    50% { background-color: tturquoise }
+    99% { background-color: white; }
+    100% { background-color: turquoise; }
+}
+
+  body {
+  -webkit-animation: argh-my-eyes 0.2s infinite;
+  -moz-animation:    argh-my-eyes 0.2s infinite;
+  animation:         argh-my-eyes 0.5s infinite;
+}

@@ -1,10 +1,135 @@
-div.a {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 7vh;
+body {
+    margin: 0;
+    padding:0;
+    float: left;
 }
+
+.square2 {
+    background-color: #EF6A63;
+    position: fixed;
+    width: 100%;
+    height: 2vh;
+    left: 0;
+    top: 0;
+  }
+
+  .square3 {
+    background-color: #EF6A63;
+    width: 100%;
+    height: 2vh;
+    position: fixed;
+    bottom: 0;
+  }
+
+  .line {
+    background-color: #F8F8F8;
+    width: 100%;
+    height: 0.6vh;
+    left: 0;
+    top: 0;
+    margin-bottom: 5vh;
+  }
 
 div.margin {
     margin-left: 5%;
     margin-right: 5%;
-    margin-bottom: 5%
+    margin-bottom: 0%
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2vh;
+    margin-right: 10vh;
+  }
+
+a:link {
+    color: #9E9E9E;
+    text-decoration: none;
+  }
+
+a:visited {
+    color: #9E9E9E;
+    text-decoration: none;
+  }
+
+a:hover {
+    color: #4d4d4d ;
+    text-decoration: none;
+  }
+  
+
+a:active {
+    color: #9E9E9E;
+    text-decoration: none;
+  }
+
+div.b {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: -6vh;
+    margin-bottom: 6vh;
+    font-size: 3.2vh;
+}
+
+div.c {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3vh;
+}
+
+div.a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 7vh;
+}
+
+div.d {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 2.5vh;
+    margin-left: 2vh;
+    float:left;
+    float:top;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    color: rgb(34, 34, 34);
+    font-size: 6vh;
+}
+
+h2 {
+    color:#EF6A63;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 4vh;
+    margin-left: 2vh;
+    position: sticky;
+    float:left;
+    float:top;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.square {
+    height: 20vh;
+    width: 60vh;
+    background-color: #EBEBEB;
+  }
+
+footer {
+    margin-top: 5%;
+    position: relative;
+    bottom: 5vh;
+    margin-top: 10%;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    color: rgb(34, 34, 34);
+    font-size: 3vh;
+    margin-top: 5%;
 }

@@ -30,8 +30,6 @@ article {
   mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));*/
 }
 
-
-
 section {
   color: rgb(12, 12, 12);
   display: flex;
@@ -40,6 +38,14 @@ section {
   align-items: center;
   border: 0px solid #1f1f1f;
   font-size: 2.7vh;
+}
+
+ul {
+  margin:0; 
+  padding:0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 li {
@@ -62,6 +68,7 @@ li {
   margin-left: 67%;
   margin-top: 0vh;
   border-radius: 10px;
+  overflow: scroll;
 }
 
 .rectangletwo {
@@ -72,19 +79,29 @@ li {
   z-index:10;
   left:0;
   top: 0;
+  overflow: scroll;
+}
 
+.rectanglethree {
+  height: 80%;
+  width: 35vh;
+  background-color: #ff5252;
+  position: fixed;
+  z-index:10;
+  left:0;
+  top: 13vh;
+  overflow: scroll;
 }
 
 .topnav {
-width: 35vh;
-height: 100%;
-position: fixed;
+
 }
 
 
 .margin {
   margin-top: 13vh;
-  margin-left: 95vh;
+  margin-left: 80vh;
+  position: fixed;
 }
 
 
@@ -121,7 +138,3 @@ h1 {
   text-align: center;
 }
 
-.margin2 {
-  margin-top: 7vh;
-  padding-right: 5vh;
-}
