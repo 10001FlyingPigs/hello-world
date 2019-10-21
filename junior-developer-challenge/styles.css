@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding:0;
     float: left;
+    color:#F5F5F5;
 }
 
 .square2 {
@@ -74,16 +75,19 @@ div.b {
     margin-top: -6vh;
     margin-bottom: 6vh;
     font-size: 3.2vh;
+    color: #282828;
 }
 
 div.c {
     font-family: 'Open Sans', sans-serif;
     font-size: 3vh;
+    color: #282828;
 }
 
 div.a {
     font-family: 'Montserrat', sans-serif;
     font-size: 7vh;
+    color: #282828;
 }
 
 div.d {
@@ -93,11 +97,12 @@ div.d {
     margin-left: 2vh;
     float:left;
     float:top;
+    color: #282828;
 }
 
 h1 {
     font-family: 'Lato', sans-serif;
-    color: rgb(34, 34, 34);
+    color: #282828;
     font-size: 6vh;
 }
 
@@ -129,7 +134,7 @@ footer {
 
 h3 {
     font-family: 'Lato', sans-serif;
-    color: rgb(34, 34, 34);
+    color: #282828;
     font-size: 3vh;
     margin-top: 5%;
 }

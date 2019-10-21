@@ -8,44 +8,37 @@
 
 
 body {
-  background-image: url("images/cactus.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%, auto;
-  background-color: #ffca85;
-  position: fixed;
   left:0;
   top:0;
 }
 
-article {
+/*article {
   display: inline-grid;
   grid-template-rows: 15.5vh 15.5vh 15.5vh 15.5vh ;
   grid-template-columns: 15.5vh 15.5vh 15.5vh 15.5vh;
   grid-gap: 0vh;
   transform: translate(-10vh);
   margin-left: 67%;
-  margin-top: 0vh;
+  margin-top: -100vh;
   justify-content: center;
   /*-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
-  mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));*/
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
 }
 
 section {
-  color: rgb(12, 12, 12);
-  display: flex;
+  color: #1f1f1f;
   font-family: 'moon 2.0';
   justify-content: center;
   align-items: center;
   border: 0px solid #1f1f1f;
   font-size: 2.7vh;
 }
+*/
 
 ul {
   margin:0; 
-  padding:0;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  padding-left:3vh;
+  list-style-type: none; 
 }
 
 li {
@@ -69,6 +62,7 @@ li {
   margin-top: 0vh;
   border-radius: 10px;
   overflow: scroll;
+  margin-bottom: 10vh;
 }
 
 .rectangletwo {
@@ -93,16 +87,6 @@ li {
   overflow: scroll;
 }
 
-.topnav {
-
-}
-
-
-.margin {
-  margin-top: 13vh;
-  margin-left: 80vh;
-  position: fixed;
-}
 
 
 a:link {
@@ -133,8 +117,23 @@ h1 {
   margin-top: 4.2vh;
   color: #2c2c2c;
   font-size: 4vh;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+ padding-left:3vh;
 }
 
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 500%; 
+  height: 500%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
