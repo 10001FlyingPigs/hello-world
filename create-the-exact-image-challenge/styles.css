@@ -1,0 +1,22 @@
+.red {
+    color: red;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.smol {
+    font-variant: small-caps;
+    color: purple;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.blue {
+    color:blue;
+    font-style: italic;
+    font-family: courier;
+    line-height: 1.3;
+    font-size: 15px;
+}

@@ -1,0 +1,17 @@
+body {
+    margin:0;
+    padding:0;
+}
+
+section {
+    background: #6bc1fa;
+    width: 350px;
+    height: 350px;
+}
+
+div {
+    margin-top: 53px;
+    margin-right: 80px;
+    margin-bottom: -px;
+    margin-left: 200px;
+}
