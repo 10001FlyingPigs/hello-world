@@ -1,0 +1,27 @@
+h1, ul, p, li {
+ font-family: sans-serif;   
+}
+
+li {
+    margin: 10px;
+}
+
+.alert {
+    color: magenta;
+}
+
+.subheading {
+ 	font-size: 24px;
+    font-weight: bold;
+}
+
+.list {
+    padding: 10px;
+    background: pink;
+    border: 1px solid red;
+}
+
+.warning{
+ 	font-size: 24px;
+    font-weight: lighter;
+}

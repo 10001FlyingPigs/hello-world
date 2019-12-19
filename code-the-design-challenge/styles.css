@@ -1,0 +1,19 @@
+body {
+    background-color: #FAF7F7;
+    margin: 0;
+}
+
+
+.circle {
+    width: 22vh;
+    height: 22vh;
+    background: #F29E9B;
+    border-radius: 50%;
+    position: absolute;
+    margin: 0;
+}
+
+.circle-container {
+    margin: 0;
+}
+

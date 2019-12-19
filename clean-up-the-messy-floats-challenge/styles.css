@@ -5,22 +5,25 @@ div {
 
 #parent-div {
     background: #FFB33D;
+    overflow: auto;
+    font-family: arial;
 }
 
 #first-div {
-    border: 5px solid #4593FE;
-    Float: none;
-    width: 200px;
-    height: 10px;
+    border: 1vh solid #4593FE;
+    float: left;
+    width: 30vh;
+    height: 20vh;
 }
 
 #second-div {
-    border: 5px solid #09CDA1;
-    float: left;
-    width: 20px;
-    height: 100px;
+    border: 1vh solid #09CDA1;
+    width: 30vh;
+    height: 20vh;
+    float: right;
 }
 
 #third-div {
-    background: #ffffff;
+    background: #EE5B5D;
+    clear: both;
 }
